@@ -14,3 +14,13 @@ git config user.name <USERNAME>
 #Commit from local repo to remote repo 
 #Note:credentails required
 git commit -m "commit message"
+
+#To know diff and create patch
+git diff
+git diff > <patchfile.patch>
+
+#To get log
+git log
+
+#To get status of current files staged and unstaged
+git status
