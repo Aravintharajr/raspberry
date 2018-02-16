@@ -1,0 +1,16 @@
+#Git command usage
+
+#Get from remote to local repo.
+git clone <URL>
+
+#Add to local repo staging
+git add --all
+git add <FILENAME>
+git add *.<FILETYPE>
+
+git config user.email <EMAILADDRESS>
+git config user.name <USERNAME>
+
+#Commit from local repo to remote repo 
+#Note:credentails required
+git commit -m "commit message"
